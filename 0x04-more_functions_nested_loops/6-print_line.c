@@ -10,9 +10,19 @@
 void print_line(int n)
 
 {
-	while (n-- > 0)
+	int iter;
+
+	int iter;
 	{
-		putchar('_');
+		_putchar(10);
+
+		return;
 	}
-	putchar('\n');
+
+	for (iter = 0; iter < n; iter++)
+	{
+		_putchar('_');
+	}
+
+	_putchar(10);
 }
