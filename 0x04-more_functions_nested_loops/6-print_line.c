@@ -2,17 +2,14 @@
 
 /**
  * print_line - prints a straight line
- * @n: parameter
- *
- * Return:returns nothing
+ * @n: user input
  */
 
 void print_line(int n)
-
 {
 	int iter;
 
-	int iter;
+	if (n <= 0)
 	{
 		_putchar(10);
 
