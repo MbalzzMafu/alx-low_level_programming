@@ -6,22 +6,27 @@
  *
  * Return: 0 on success
  */
+
 int main(void)
 {
-	int start = 1, end = 100;
+	int iter;
 
-	while (start <= 100)
+	for (iter = 1; iter <= 100; iter++)
 	{
-		if (start % 3 == 0)
+		if ((iter % 3) == 0)
 			printf("Fizz");
-		if (start % 5 == 0)
-			printf("Buzz")
-				if (start % 3 != 0 && start 5 != 0)
-					printf("%d", start);
 
-		putchar(start == end ? '\n' : ' ');
-		start++;
+		if ((iter % 5) == 0)
+			printf("Buzz");
+
+		if (((iter % 3) != 0) && ((iter % 5) != 0))
+			printf("%d", iter);
+
+		if (iter < 100)
+			printf(" ");
 	}
+
+	printf("\n");
 
 	return (0);
 }
