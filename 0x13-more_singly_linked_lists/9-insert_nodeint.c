@@ -61,7 +61,7 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 		node = node->next;
 
 	}
-	return (0)
+	return (0);
 }
 /**
  * add_nodeint - add not at start
