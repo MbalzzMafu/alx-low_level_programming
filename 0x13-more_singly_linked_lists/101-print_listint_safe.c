@@ -11,7 +11,6 @@ size_t print_listint_safe(const listint_t *head)
 	int size = 0, i;
 	const listint_t *tmp[100];
 
-
 	if (!head)
 		exit(98);
 
